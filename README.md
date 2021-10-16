@@ -1,4 +1,5 @@
 # [CVPR 2020] 3D Photography using Context-aware Layered Depth Inpainting
+# This This fork made for Windows Version !!
 
 [![Open 3DPhotoInpainting in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1706ToQrkIZshRSJSHvZ1RuCiM__YX3Bz)
 
@@ -11,7 +12,6 @@
 We propose a method for converting a single RGB-D input image into a 3D photo, i.e., a multi-layer representation for novel view synthesis that contains hallucinated color and depth structures in regions occluded in the original view. We use a Layered Depth Image with explicit pixel connectivity as underlying representation, and present a learning-based inpainting model that iteratively synthesizes new local color-and-depth content into the occluded region in a spatial context-aware manner. The resulting 3D photos can be efficiently rendered with motion parallax using standard graphics engines. We validate the effectiveness of our method on a wide range of challenging everyday scenes and show fewer artifacts when compared with the state-of-the-arts.
 <br/>
 
-This fork made for Windows Version 
 
 **3D Photography using Context-aware Layered Depth Inpainting**
 <br/>
