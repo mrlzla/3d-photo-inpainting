@@ -2,6 +2,7 @@
 
 # =====================================
 # This fork made for Windows !!
+# Converted by Eran Feit
 # =====================================
 
 [![Open 3DPhotoInpainting in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1706ToQrkIZshRSJSHvZ1RuCiM__YX3Bz)
@@ -28,24 +29,49 @@ In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
 
 ## Prerequisites
 
-- Linux (tested on Ubuntu 18.04.4 LTS)
+- Windows (tested on Windows 10)
 - Anaconda
 - Python 3.7 (tested on 3.7.4)
-- PyTorch 1.4.0 (tested on 1.4.0 for execution)
+- PyTorch 1.9 
 
-and the Python dependencies listed in [requirements.txt](requirements.txt)
-- To get started, please run the following commands:
-    ```bash
-    conda create -n 3DP python=3.7 anaconda
-    conda activate 3DP
-    pip install -r requirements.txt
-    conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit==10.1.243 -c pytorch
-    ```
-- Next, please download the model weight using the following command:
-    ```bash
-    chmod +x download.sh
-    ./download.sh
-    ```    
+Please look and follow the Install-instructions.txt file 
+
+
+git clone https://github.com/vt-vl-lab/3d-photo-inpainting.git
+cd 3d-photo-inpainting
+  
+
+conda create -n 3DP python=3.7 
+conda activate 3DP 
+
+nstall Pytorch in your conda 3DP enviroment 
+https://pytorch.org/
+
+how to find my Cuda version
+- nvcc --version
+
+this is for Cuda 11. Please look for the relevant command for your Cuda version
+- conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c conda-forge
+
+Python dependencies:
+
+pip install opencv-python==4.2.0.32
+pip install vispy==0.6.4
+pip install moviepy==1.0.2
+pip install transforms3d==0.3.1
+pip install networkx==2.3
+
+pip install Cython==3.0a5
+pip install git+https://github.com/pattern-inc/cynetworkx.git
+
+pip install scikit-image
+pip install pyYaml
+
+pip install PyQt5
+
+Please download the model weight using the following command:
+Run the ready made mode;WG.bat  file from the repository home direcrory
+- modelWG.bat  
 
 ## Quick start
 Please follow the instructions in this section. 
