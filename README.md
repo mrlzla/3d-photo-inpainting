@@ -1,5 +1,6 @@
 # [CVPR 2020] 3D Photography using Context-aware Layered Depth Inpainting
-# This This fork made for Windows Version !!
+# This fork made for Windows Version !!
+# =====================================
 
 [![Open 3DPhotoInpainting in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1706ToQrkIZshRSJSHvZ1RuCiM__YX3Bz)
 
