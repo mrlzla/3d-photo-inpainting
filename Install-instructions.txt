@@ -1,5 +1,5 @@
 # download the github repository
-git clone https://github.com/vt-vl-lab/3d-photo-inpainting.git
+git clone https://github.com/feitgemel/3d-photo-inpainting.git
 cd 3d-photo-inpainting
   
 
