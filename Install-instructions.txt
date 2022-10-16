@@ -1,3 +1,9 @@
+
+
+# Requirements : Nvidia GPU card & and Cuda tool kit install
+# I am using this card : https://amzn.to/3mTa7HX
+# Working Anaconda enviroment
+
 # download the github repository
 git clone https://github.com/feitgemel/3d-photo-inpainting.git
 cd 3d-photo-inpainting
